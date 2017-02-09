@@ -14,6 +14,6 @@ public class RotateMars : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		iTween.RotateBy(marsParent, iTween.Hash("y", 0.1f, "time", 10f, "easetype", "linear", "looptype", iTween.LoopType.loop));
+		iTween.RotateBy(marsParent, iTween.Hash("y", 2.0f, "time", 50f, "easetype", "linear", "looptype", iTween.LoopType.loop));
 	}
 }
