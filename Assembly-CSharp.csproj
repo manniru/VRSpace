@@ -94,9 +94,11 @@
      <Compile Include="Assets\Nebula Skyboxes\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Nebula Skyboxes\Scripts\SmoothCameraOrbit.cs" />
      <Compile Include="Assets\Scripts\FollowNpc.cs" />
+     <Compile Include="Assets\Scripts\GravityManager.cs" />
      <Compile Include="Assets\Scripts\RandomMovement.cs" />
      <Compile Include="Assets\Scripts\RaycastMovement.cs" />
      <Compile Include="Assets\Scripts\RotateMars.cs" />
+     <Compile Include="Assets\Scripts\SceneLogic.cs" />
      <Compile Include="Assets\Scripts\WaypointMovement.cs" />
      <Compile Include="Assets\Scripts\iTween.cs" />
      <Compile Include="Assets\zzRuler\zzHorizontalRuler.cs" />
@@ -104,13 +106,16 @@
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
      <None Include="Assets\Nebula Skyboxes\Nebula Skyboxes - Readme.txt" />
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\zzRuler\readme.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -125,6 +130,9 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
