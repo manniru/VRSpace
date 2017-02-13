@@ -1,11 +1,11 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRSpace", "Assembly-CSharp-firstpass.csproj", "{D7EA9102-DA46-E089-E62E-5D60EDB0B549}"
+# Visual Studio 2008
+
+Project("{5CC507AD-975B-1F90-DB46-FD84A5996AB9}") = "VRSpace", "Assembly-CSharp-firstpass.csproj", "{D7EA9102-DA46-E089-E62E-5D60EDB0B549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRSpace", "Assembly-CSharp.csproj", "{6D847D14-6A06-F865-E9CE-7B29A814E123}"
+Project("{5CC507AD-975B-1F90-DB46-FD84A5996AB9}") = "VRSpace", "Assembly-CSharp.csproj", "{6D847D14-6A06-F865-E9CE-7B29A814E123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRSpace", "Assembly-CSharp-Editor.csproj", "{3A924B8D-555B-A918-39B5-25D3083AD089}"
+Project("{5CC507AD-975B-1F90-DB46-FD84A5996AB9}") = "VRSpace", "Assembly-CSharp-Editor.csproj", "{3A924B8D-555B-A918-39B5-25D3083AD089}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
