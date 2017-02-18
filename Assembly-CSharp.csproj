@@ -95,6 +95,7 @@
      <Compile Include="Assets\Nebula Skyboxes\Scripts\SmoothCameraOrbit.cs" />
      <Compile Include="Assets\Scripts\FollowNpc.cs" />
      <Compile Include="Assets\Scripts\GravityManager.cs" />
+     <Compile Include="Assets\Scripts\Orbiting.cs" />
      <Compile Include="Assets\Scripts\RandomMovement.cs" />
      <Compile Include="Assets\Scripts\RaycastMovement.cs" />
      <Compile Include="Assets\Scripts\RotateMars.cs" />
@@ -105,12 +106,16 @@
      <Compile Include="Assets\zzRuler\zzVerticalRuler.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
+     <None Include="Assets\Double Sided Shaders\Double Sided Emissive Diffuse.shader" />
+     <None Include="Assets\Double Sided Shaders\Double Sided Transparent Diffuse Bump Cutout.shader" />
      <None Include="Assets\Nebula Skyboxes\Nebula Skyboxes - Readme.txt" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\zzRuler\readme.txt" />
+     <None Include="Assets\Double Sided Shaders\Double Sided Standard Diffuse Bump.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
+     <None Include="Assets\Double Sided Shaders\Double Sided Transparent Diffuse Bump.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
  <Reference Include="UnityEngine.UI">

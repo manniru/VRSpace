@@ -3,6 +3,7 @@ using System.Collections;
 
 public class GravityManager : MonoBehaviour {
 
+
 	// Use this for initialization
 	void Start () {
 		GameObject[] Objects = GameObject.FindGameObjectsWithTag ("Planet");
@@ -10,10 +11,11 @@ public class GravityManager : MonoBehaviour {
 		//the gravity between each couple of object is calculated
 		foreach (GameObject ObjectA in Objects) 
 		{
-			ObjectA.GetComponent<Rigidbody>().AddForce(new Vector3(100000,100000,0));
+			ObjectA.GetComponent<Rigidbody>().AddForce(new Vector3(10,10,0));
 		
 		}
-	
+
+
 	}
 
 	void ApplyGravity(Rigidbody A, Rigidbody B)
@@ -33,22 +35,23 @@ public class GravityManager : MonoBehaviour {
 		B.AddForce (-dist * force);
 	}
 	
-	void FixedUpdate () 
+	void FixedUpdate ()
 	{
 		//Get every object 
 		GameObject[] Objects = GameObject.FindGameObjectsWithTag ("Planet");
 
 		//the gravity between each couple of object is calculated
-		foreach (GameObject ObjectA in Objects) 
-		{
-			foreach (GameObject ObjectB in Objects)
-			{
+		foreach (GameObject ObjectA in Objects) {
+			foreach (GameObject ObjectB in Objects) {
 				//Objects must not self interact 
-				if(ObjectA == ObjectB)
+				if (ObjectA == ObjectB)
 					continue;
 
-				ApplyGravity(ObjectA.GetComponent<Rigidbody>(), ObjectB.GetComponent<Rigidbody>());
+				ApplyGravity (ObjectA.GetComponent<Rigidbody> (), ObjectB.GetComponent<Rigidbody> ());
 			}
-		}
+		}  
 	}
+	
+
+
 }
