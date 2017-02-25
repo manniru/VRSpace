@@ -16,7 +16,7 @@ public class Orbiting : MonoBehaviour {
 		Earth = GameObject.FindWithTag("Planet2");
 		center = Earth.transform;
 		transform.position = (transform.position - center.position).normalized * radius + center.position;
-		radius = 2.0f;
+		//radius = 2.0f;
 
 		
 	}

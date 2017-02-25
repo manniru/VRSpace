@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Planet
   - Planet2
+  - SpaceShip
   layers:
   - Default
   - TransparentFX

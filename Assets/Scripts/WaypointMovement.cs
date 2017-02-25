@@ -5,12 +5,10 @@ public class WaypointMovement : MonoBehaviour {
 	
 	public GameObject player;
 
-
 	public float height = 2;
 	public bool teleport = true;
 
 	public float maxMoveDistance = 10;
-	private bool moving = false;
 
 	// Use this for initialization
 	void Start () {

@@ -11,7 +11,7 @@ public class GravityManager : MonoBehaviour {
 		//the gravity between each couple of object is calculated
 		foreach (GameObject ObjectA in Objects) 
 		{
-			ObjectA.GetComponent<Rigidbody>().AddForce(new Vector3(10,10,0));
+			ObjectA.GetComponent<Rigidbody>().AddForce(new Vector3(10000,10000,0));
 		
 		}
 
