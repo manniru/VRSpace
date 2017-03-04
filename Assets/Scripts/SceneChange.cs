@@ -4,16 +4,35 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour {
-	public void GoToScene(){
 
+	public float waitTime;
+
+
+	public void LoadNextScene()
+	{
 		if (SceneManager.GetActiveScene().name == "EarthMission")
 		{
-			SceneManager.LoadScene("GravityDemo");
+			StartCoroutine(WaitAndLoadScene());
+
+
 		}
 
 		if (SceneManager.GetActiveScene().name == "GravityDemo")
 		{
-			SceneManager.LoadScene("EarthMission");
+			StartCoroutine(WaitAndLoadScene2());
+
 		}
+	}
+
+	IEnumerator WaitAndLoadScene()
+	{
+		yield return new WaitForSeconds(waitTime);
+		SceneManager.LoadScene("GravityDemo");
+	}
+
+	IEnumerator WaitAndLoadScene2()
+	{
+		yield return new WaitForSeconds(waitTime);
+		SceneManager.LoadScene("EarthMission");
 	}
 }

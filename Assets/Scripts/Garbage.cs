@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class Garbage : MonoBehaviour {
 
-	// reference to the poof
 	public GameObject poof;
-	public AudioClip poofSound;
+	public AudioClip poofSound;	
+
+	void Start () {
+
+	}
+		
+	void Update () {
+
+	}
 
 	public void OnTrashClicked() {
 
@@ -24,5 +31,8 @@ public class Garbage : MonoBehaviour {
 
 		// destroy the object trash
 		Destroy (gameObject);
+
+	
 	}
+
 }

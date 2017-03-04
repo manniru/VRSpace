@@ -7,6 +7,8 @@ TagManager:
   - Planet
   - Planet2
   - SpaceShip
+  - Bullet
+  - Cannon
   layers:
   - Default
   - TransparentFX
